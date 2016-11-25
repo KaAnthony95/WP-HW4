@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+		$(function(){
+			$("b1").click(function(){
+				$("p:first").hide();
+			});
+			$("b2").click(function(){
+				$("#2").hide();
+			});
+			$("b3").click(function(){
+				$(".3").hide();
+			});
+		});
+		</script>
+	</head>
+	<body>
+	<h1>Web Programming</h1>
+	<p>Hide paragraph 1</p>
+	<p id="2">Hide paragraph 2</p>
+	<p class="3">Hide paragraph 3</p>
+	<button><b1>Hide p1</b1></button>
+	<button><b2>Hide p2</b2></button>
+	<button><b3>Hide p3</b3></button>
+	</body>
+	</html>
